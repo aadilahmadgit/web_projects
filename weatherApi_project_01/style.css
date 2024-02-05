@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url('img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.container_1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+    color: white;
+}
+
+.search_area {
+    background-color: transparent;
+    height: 10vh;
+    border: 8px solid white;
+    padding-left: 1rem;
+    color: black;
+    border-radius: 5rem;
+    font-size: medium;
+
+
+}
+
+button {
+    background-color: transparent;
+    color: black;
+    width: 14vw;
+    height: 10vh;
+    border: 8px solid white;
+
+    border-radius: 5rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.search_area:hover {
+    border: 8px solid black;
+}
+
+button:hover {
+    border: 8px solid black;
+}
